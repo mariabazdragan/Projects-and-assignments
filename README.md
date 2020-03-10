@@ -24,3 +24,9 @@ We repeat these steps for Q2: compare Q2's front with current element in data, i
 of solutions, and go to the next element in data; if not, pop it from Q2 and push it into Q1. 
 To save time, the algorithm can start after adding a single element to Q1, but we need more checks so we won't try to pop an empty queue.
 
+#problem40
+
+You receive a hastable that has been created using linear probing, and 5 possible inputs. Answer with "Yes" or "No" if they can or can't form the given hashtable, if they were introduced in that order.
+
+
+You receive a hash and test a sequence of lists, so that the order in which they could have been inserted into the hashtable to be able to generate an identical list with that of the hashtable. Through linear probing, the elements fall into place in an array statically allocated on the positions of their keys, so that an element with the k key will be stored on location k.
